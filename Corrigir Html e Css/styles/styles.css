@@ -1,0 +1,231 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    display: flex;
+    height: 70px;
+    padding: 0 20px;
+}
+
+header h1 {
+    margin: 0;
+    flex: 1;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+nav li {
+    margin: 0 10px;
+}
+
+nav a {
+    color: #fff;
+}
+
+.hero {
+    background-image: url("hero-background.jpg");
+    background-size: cover;
+    background-position: center;
+    height: 500px;
+    display: flex;
+}
+
+.hero-text {
+    text-align: center
+}
+
+.hero-text h2 {
+    font-size: 48px;
+    margin-bottom: 20px;
+}
+
+.hero-text p {
+    font-size: 24px;
+    margin-bottom: 40px;
+}
+
+.btn-hero {
+    background-color: #fff;
+    color: #333;
+    font-size: 24px;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.about {
+    padding: 50px 20px;
+    background-color: #f2f2f2;
+}
+
+.about h2 {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+.about p {
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+.about ul {
+    margin: 0;
+    padding: 0;
+    
+}
+
+.about li {
+    font-size: 18px;
+    margin-bottom: 10px;
+    display: inline;
+}
+
+.pricing {
+    padding: 50px 20px;
+    background-color: #e6e6e6;
+}
+
+.pricing h2 {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+.pricing ul {
+    margin: 0;
+    padding: 0;
+    
+}
+
+.pricing li {
+    font-size: 24px;
+    margin-bottom: 20px;
+    display: inline;
+}
+
+.pricing p {
+    font-size: 18px;
+    margin-bottom: 40px;
+    text-align: right;
+}
+
+.btn-pricing {
+    color: #fff;
+    font-size: 24px;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+}
+
+/*novo*/
+
+header{
+    align-items: center;
+}
+
+.hero{
+    justify-content: center;
+    align-items: center;
+}
+
+header a{
+    text-decoration: none;
+}
+
+.btn-pricing{
+    align-self: center;
+}
+
+.pricing{
+    display: flex;
+    flex-direction: column;
+}
+
+.lista{
+    display: flex;
+    flex-direction: column;
+}
+
+.lista2{
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+}
+
+.lista2 li{
+    background-color: #ff1616;
+    padding: 10px;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+.lista2 li:hover{
+    color:#fff;
+    background-color: #5c0505;
+    padding: 15px;
+    font-size: 30px;
+}
+
+.vermelho{
+    color: rgb(231, 30, 30);
+}
+
+.btn-pricing:hover {
+    background-color: #fff;
+    color: #333;
+}
+
+.btn-hero:hover {
+    background-color: #5c0505;
+    color: #fff;
+}
+
+.btn-pricing{
+    background-color: #5c0505;
+}
+
+nav ul li a:hover{
+    color: rgb(255, 84, 84);
+}
+
+.texto{
+    width: 65vw;
+    text-align: center;
+}
+
+.meio{
+    display: flex;
+    justify-content: center;
+}
+
+.about{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.sobre{
+    margin-left: -10px;
+}
+
+.sobre li:hover{
+    color: #ff1616;
+    cursor: pointer;
+}
